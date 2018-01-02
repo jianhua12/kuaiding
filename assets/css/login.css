@@ -62,15 +62,8 @@ html {
     padding-right: 24px;
     background-color: #faffbd;
 }
-.bigger-80{
-	font-size:14px;
 
-}
-.footer {
-    padding-top: 0px;
-    height: 0;
-    width: 0;
-}
+
 
 @media(max-width:  1024px){
 .logo {
@@ -97,6 +90,9 @@ html {
     top: 50%;
     height: 200px;
     background: rgba(255, 255, 255, 0.3);
+}
+.dibu{
+    display: none;
 }
 
 }
@@ -133,17 +129,24 @@ html {
     height: 200px;
     background: rgba(255, 255, 255, 0.3);
 }
-.bigger-80{
-	font-size:13px;
+.footer{
+    display: none;
 
 }
-.footer {
-    text-align: center;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 100%;
+.dibu{
+    display: block;
 }
-   
-}}
+.dibu{
+    text-align: center;
+    margin: auto;
+    margin-top:10px;
+
+}
+.dibu p{
+    font-size: 14px;
+    line-height: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+}
