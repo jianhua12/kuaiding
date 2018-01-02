@@ -1,0 +1,134 @@
+*{
+	padding:0;
+	margin: 0;
+}
+html {
+    position: relative;
+    background-color: #ffffff;
+}
+.logo{
+	width: 100%;
+	height: 80px;
+	padding-top: 25px;
+    padding-left: 20px;
+    background-color: #ffffff;
+}
+.logo_img{
+	width: 89px;
+    height: 27px;
+    display: block;
+}
+	
+.logo_img img{
+  width: 100%;
+  height: 100%;
+}
+.bj{
+	position: absolute;
+    width: 100%;
+    height: 60%;
+}
+.bj_img{ 
+    width: 100%;
+    height: 100%;
+
+}
+.bj_img img{
+	width: 100%;
+	height: 100%;
+
+}
+.input{
+       width: 280px;
+    padding: 16px 36px;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.3);
+
+}
+
+.form-input{
+	width:100%;
+	height: 30px;
+	display:block; 
+	border: none;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.input-icon.input-icon-right>input {
+    padding-left: 6px;
+    padding-right: 24px;
+    background-color: #faffbd;
+}
+.bigger-80{
+	font-size:14px;
+
+}
+
+@media(max-width:  1024px){
+.logo {
+    width: 1024;
+    height: 80px;
+    padding-top: 25px;
+    padding-left: 20px;
+    background-color: #ffffff;
+}
+.bj_img img {
+    width: 100%;
+    height: 819px;
+}
+.bj{
+	    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+.input {
+    width: 280px;
+    padding: 16px 36px;
+    position: absolute;
+    right: 37%;
+    top: 50%;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+}
+@media(max-width:  768px){
+   .input {
+    width: 280px;
+    padding: 16px 36px;
+    position: absolute;
+    right: 244px;
+    top: 40%;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.3);
+} 
+
+}
+@media(max-width:  767px){
+   .bj_img img {
+    width: 100%;
+    height: 100%;
+}
+.bj{
+	    position: absolute;
+    width: 100%;
+    height: 77%;
+}
+.input {
+  transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 280px;
+    padding: 16px 36px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.3);
+}
+.bigger-80{
+	font-size:13px;
+
+}
+}
